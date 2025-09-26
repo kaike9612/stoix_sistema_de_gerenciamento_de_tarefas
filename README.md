@@ -2,7 +2,7 @@
 
 Um sistema completo de gerenciamento de tarefas desenvolvido com **Next.js 15**, **TypeScript**, **React** e **Tailwind CSS**, implementando autenticação com tokens CSRF, APIs RESTful e interface moderna e responsiva.
 
-![Sistema de Gerenciamento de Tarefas Stoix](./docs/screenshot-main.png)
+![Sistema de Gerenciamento de Tarefas Stoix](./screenshot-main.png) 
 
 ## 🚀 Funcionalidades
 
