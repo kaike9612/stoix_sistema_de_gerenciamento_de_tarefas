@@ -110,7 +110,7 @@ Para criar um novo usuário, simplesmente:
 
 ## 🔧 Estrutura do Projeto
 
-\`\`\`
+```
 stoix-task-manager/
 ├── app/                          # App Router do Next.js
 │   ├── api/                      # Rotas de API
@@ -136,7 +136,7 @@ stoix-task-manager/
 ├── public/                       # Arquivos estáticos
 │   └── images/                   # Imagens e assets
 └── README.md                     # Este arquivo
-\`\`\`
+```
 
 ## 🔌 APIs Disponíveis
 
