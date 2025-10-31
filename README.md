@@ -59,7 +59,7 @@ Um sistema completo de gerenciamento de tarefas desenvolvido com **Next.js 15**,
 
 1. **Clone o repositório**
 \`\`\`bash
-git clone https://github.com/stoix/task-management-system.git
+git clone https://github.com/kaike9612/stoix_sistema_de_gerenciamento_de_tarefas/tree/main
 cd task-management-system
 \`\`\`
 
@@ -182,7 +182,6 @@ X-CSRF-Token: {csrf-token}
 ## 🎯 Como Usar o Sistema
 
 ### 1. Login
-- Acesse `http://localhost:3000`
 - Use as credenciais: `admin@stoix.com` / `admin123`
 - Ou use um dos outros usuários de teste
 - O sistema fará login automaticamente
@@ -299,30 +298,6 @@ O projeto é compatível com qualquer provedor que suporte Next.js:
 - [ ] SendGrid para emails
 - [ ] Cloudinary para uploads
 - [ ] Stripe para pagamentos
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📞 Suporte
-
-Para suporte e dúvidas:
-- Abra uma [issue](https://github.com/stoix/task-management-system/issues)
-- Entre em contato: contato@stoix.com
-
-## 🏆 Créditos
-
-Desenvolvido pela equipe **Stoix** com ❤️ usando as melhores práticas de desenvolvimento web moderno.
 
 ---
 
