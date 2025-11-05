@@ -77,11 +77,6 @@ npm run dev
 yarn dev
 \`\`\`
 
-4. **Acesse o sistema**
-\`\`\`
-http://localhost:3000
-\`\`\`
-
 ## 👥 Credenciais de Acesso
 
 O sistema possui as seguintes credenciais para demonstração:
