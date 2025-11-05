@@ -58,24 +58,24 @@ Um sistema completo de gerenciamento de tarefas desenvolvido com **Next.js 15**,
 ### Passo a passo
 
 1. **Clone o repositório**
-\`\`\`bash
+```bash
 git clone https://github.com/kaike9612/stoix_sistema_de_gerenciamento_de_tarefas/tree/main
 cd task-management-system
-\`\`\`
+```
 
 2. **Instale as dependências**
-\`\`\`bash
+```bash
 npm install
 # ou
 yarn install
-\`\`\`
+```
 
 3. **Execute o projeto em desenvolvimento**
-\`\`\`bash
+```bash
 npm run dev
 # ou
 yarn dev
-\`\`\`
+```
 
 ## 👥 Credenciais de Acesso
 
@@ -136,13 +136,13 @@ stoix-task-manager/
 ## 🔌 APIs Disponíveis
 
 ### Autenticação
-\`\`\`http
+```http
 POST /api/csrf
 # Gera novo token CSRF
-\`\`\`
+```
 
 ### Tarefas
-\`\`\`http
+```http
 GET /api/tasks
 # Lista todas as tarefas do usuário autenticado
 
@@ -162,17 +162,17 @@ DELETE /api/tasks/{id}
 # Remove tarefa
 Authorization: Bearer {token}
 X-CSRF-Token: {csrf-token}
-\`\`\`
+```
 
 ### Exemplo de Payload
-\`\`\`json
+```json
 {
   "title": "Nova Tarefa",
   "description": "Descrição da tarefa",
   "status": "pending",
   "priority": "medium"
 }
-\`\`\`
+```
 
 ## 🎯 Como Usar o Sistema
 
@@ -217,7 +217,7 @@ X-CSRF-Token: {csrf-token}
 ## 🧪 Testes e Desenvolvimento
 
 ### Scripts Disponíveis
-\`\`\`bash
+```bash
 # Desenvolvimento
 npm run dev
 
@@ -229,12 +229,12 @@ npm run start
 
 # Linting
 npm run lint
-\`\`\`
+```
 
 ### Estrutura de Dados
 O sistema utiliza localStorage para persistência (demo), mas está preparado para integração com bancos de dados reais:
 
-\`\`\`typescript
+```typescript
 interface Task {
   id: string
   title: string
@@ -252,23 +252,23 @@ interface User {
   name: string
   createdAt: string
 }
-\`\`\`
+```
 
 ## 🚀 Deploy
 
 ### Netlify
-\`\`\`bash
+```bash
 # Build do projeto
 npm run build
 
 # Deploy manual ou conecte o repositório
-\`\`\`
+```
 
 ### Railway
-\`\`\`bash
+```bash
 # Conecte o repositório no Railway
 # Configure as variáveis de ambiente se necessário
-\`\`\`
+```
 
 ### Outros Provedores
 O projeto é compatível com qualquer provedor que suporte Next.js:
